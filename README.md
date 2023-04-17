@@ -1,2 +1,4 @@
 # Data-Extraction-and-NLP
 The objective of this assignment is to extract textual data articles from the given URL and perform text analysis to compute variables that are explained below. 
+list of negative and positive words to calculate the polarity is uploaded.
+Best Wishes!!
