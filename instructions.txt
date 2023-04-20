@@ -1,0 +1,31 @@
+instructions
+
+>This is a Python code for extracting data from web pages and performing Natural Language Processing (NLP) on the extracted data. Here are the instructions for this code:
+
+>First, the necessary libraries are imported, including pandas, requests, numpy, BeautifulSoup, and nltk.
+
+>The paths for the positive and negative word list, stopword list, and input file (a CSV file) are set.
+
+>Positive, negative, and stopword lists are created by reading data from the respective files.
+
+>Pronouns are removed from the stopword list.
+
+>The NLTK library is used to tokenize the words in the input file.
+
+>The input file is read into a DataFrame using the pandas library.
+
+>A list of unwanted lines is created to remove these lines from the articles.
+
+>The code loops through all links in the input file, web scrapes the data from the web pages, removes unwanted lines, and stores the article text in the main_text list.
+
+>The scikit-learn library's CountVectorizer method is used to create a bag of words for the extracted text.
+
+>The resulting bag of words is stored in the X variable.
+
+>The sentiment analysis is performed using the NLTK library's SentimentIntensityAnalyzer method, and the resulting sentiment scores are stored in the sentiment_scores list.
+
+>The code loops through the sentiment_scores list and calculates the average sentiment score for each article.
+
+>The average sentiment score for each article is added to the input DataFrame as a new column.
+
+>Finally, the input DataFrame is written to a CSV file.
